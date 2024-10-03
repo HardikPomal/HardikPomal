@@ -4,7 +4,7 @@
 
 /* Top Navbar */
 
-#nav-1{
+#nav-1, #nav-2, #nav-3{
     border-bottom: 1px solid #CCCCCC;
 }
 
@@ -12,7 +12,11 @@
     border-right: 1px solid #CCCCCC;
 }
 
-/* Second Navbar */
-#nav-2{
-    border-bottom: 1px solid #CCCCCC;
+#feature-section .feature{
+    margin: 0px !important;
+}
+
+#popular-parts .parts:hover{
+    background-color: rgb(246 13 4 / 10%);
+    border: 1px solid #F60D04;
 }
