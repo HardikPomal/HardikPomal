@@ -1,22 +1,36 @@
-*{
+* {
     font-family: "Poppins", system-ui;
 }
 
 /* Top Navbar */
 
-#nav-1, #nav-2, #nav-3{
+#nav-1,
+#nav-2,
+#nav-3 {
     border-bottom: 1px solid #CCCCCC;
 }
 
-#nav-1 .devider{
+#nav-1 .devider {
     border-right: 1px solid #CCCCCC;
 }
 
-#feature-section .feature{
+#feature-section .feature {
     margin: 0px !important;
 }
 
-#popular-parts .parts:hover{
+#popular-parts .parts,
+#select-auto-parts .parts-by-make {
+    /* background-color: rgb(246 13 4 / 10%); */
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in;
+}
+
+#popular-parts .parts:hover {
     background-color: rgb(246 13 4 / 10%);
     border: 1px solid #F60D04;
+}
+
+#select-auto-parts .parts-by-make:hover {
+    background-color: rgb(6 92 193 / 10%);
+    border: 1px solid #065CC1;
 }
